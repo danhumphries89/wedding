@@ -3,8 +3,34 @@
 }
 
 @media all and (min-width: 768px) and (max-width: 1000px){
-	body{ }
+	body{ margin: 0 0; }
 	p{ font-size: 1em; }
+
+	.main_header{ margin: 0 0; }
+	.main_nav{ display: none; }
+
+	.main_section{
+		.main_items{
+			.page{
+
+				padding: 15px 0;
+
+				.page_content{
+					.countdown{ margin: 0 5% 0 0; }
+					.countdown + p{ width: 75%; }
+					h4{ font-size: 1.25em; }
+				}
+				.post-list{
+					.page_posts{
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+
+	.main_footer{ display: none; }
+	.page-break{ display: none; }
 }
 
 @media all and (min-width: 320px) and (max-width: 767px){
@@ -53,6 +79,5 @@
 	}
 
 	.main_footer{ display: none; }
-
-	.page-break{ height: 24px; background-size: 24px; display: none; }
+	.page-break{ display: none; }
 }
