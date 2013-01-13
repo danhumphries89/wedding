@@ -66,7 +66,6 @@
 		</div>
 		<?php $counter++; endwhile; ?>
 	</div>
-	<span class="page-break"></span>
 </section>
 
 <?php get_footer(); ?>

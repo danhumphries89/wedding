@@ -1,8 +1,8 @@
-@media all and (min-width: 1200px){
-	body{ }
+@media all and (min-width: 1150px){
+	
 }
 
-@media all and (min-width: 768px) and (max-width: 1000px){
+@media all and (min-width: 768px) and (max-width: 1150px){
 	body{ margin: 0 0; }
 	p{ font-size: 1em; }
 
@@ -16,13 +16,21 @@
 				padding: 15px 0;
 
 				.page_content{
-					.countdown{ margin: 0 5% 0 0; }
+					.countdown{ 
+						margin: 0 5% 0 0; 
+						span{ width: 100%; }
+						.date{ font-size: 0.95em; }
+					}
 					.countdown + p{ width: 75%; }
 					h4{ font-size: 1.25em; }
 				}
 				.post-list{
 					.page_posts{
 						width: 100%;
+						float: none; 
+
+						&:nth-child(1n){ float: none; }
+						&:nth-child(2n){ float: none; }
 					}
 				}
 			}
@@ -54,12 +62,12 @@
 
 				.page_content{
 
-					ul{
-						li{ font-size: 0.8em; }
-					}
+					ul{ li{ font-size: 0.8em; } }
 					.countdown{ 
 						width: 100%; 
 						float: none; 
+
+						span{ width: 60%; margin: 0 auto; display: block; text-align: center; }
 						.number{ font-size: 3em; }
 					}
 					.countdown + p{ width: 100%; padding: 20px 0; float: none; }
@@ -72,6 +80,9 @@
 
 						.post_content{ display: none; }
 						.post_address{ width: 100%; padding: 0; float: none; font-size: 1em; }
+
+						&:nth-child(1n){ float: none; }
+						&:nth-child(2n){ float: none; }
 					}
 				}
 			}
