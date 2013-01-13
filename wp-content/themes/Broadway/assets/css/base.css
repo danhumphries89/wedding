@@ -9,8 +9,10 @@ h1, h2, h3, h4, h5 {
   padding: 0 0;
   font-family: "ComfortaaRegular", sans-serif;
   color: #ffe545;
+  text-shadow: 0 1px 1px #333333;
   display: inline-block;
-  font-weight: normal; }
+  font-weight: normal;
+  clear: both; }
   h1 a, h2 a, h3 a, h4 a, h5 a {
     color: inherit;
     text-decoration: none; }
@@ -28,13 +30,13 @@ p {
   padding: 0 10%; }
   .main_header .title {
     padding: 50px 0 0;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center; }
     .main_header .title a:hover {
       color: #FFF; }
   .main_header .bloginfo {
     padding: 0 0 50px;
-    font-size: 1.5em;
+    font-size: 2em;
     color: #EEE;
     text-align: center;
     font-family: "ComfortaaThin", sans-serif; }
@@ -74,12 +76,41 @@ p {
     .main_section .main_items .page .page_header h2 {
       font-size: 2em;
       text-align: center;
+      box-shadow: 0 1px 1px #555555;
       margin: 0 0 10px;
       padding: 0 0 10px;
       border-bottom: 1px solid #ffe545; }
     .main_section .main_items .page .page_content {
       padding: 10px 0 20px;
       font-size: 1.25em; }
+      .main_section .main_items .page .page_content .countdown {
+        width: 20%;
+        text-align: center;
+        float: left;
+        display: block; }
+        .main_section .main_items .page .page_content .countdown span {
+          margin: 0;
+          padding: 0; }
+        .main_section .main_items .page .page_content .countdown .number {
+          font-size: 5em;
+          font-family: "ComfortaaRegular", sans-serif;
+          line-height: 1em;
+          color: #ffe545; }
+        .main_section .main_items .page .page_content .countdown .words {
+          padding: 0 0 10px;
+          font-size: 1.1em;
+          color: #ffe545;
+          font-family: "ComfortaaThin", sans-serif;
+          display: block; }
+        .main_section .main_items .page .page_content .countdown .date {
+          padding: 10px 5px 0;
+          font-size: 1.25em;
+          color: #FFF;
+          display: inline-block;
+          border-top: 1px solid #777777; }
+      .main_section .main_items .page .page_content .countdown + p {
+        width: 80%;
+        float: left; }
       .main_section .main_items .page .page_content ul li {
         padding: 0 0 5px;
         color: #ffe545; }

@@ -19,10 +19,14 @@
 				<?php if($page_custom_fields[countdown][0]) : ?>
 				<div class="countdown">
 					<?php 
+						date_default_timezone_set('Europe/London');
 						$countdown_date = strtotime($page_custom_fields[countdown][0]); 
-						$current_date = strtotime("Now");	
-						echo $countdown_date - $current_date; 
+						$current_date = strtotime("now");	
+						$date_diff = $countdown_date - $current_date;
 					?>
+					<span class="number"><?php echo floor($date_diff/(60*60*24)) + 1;?></span>
+					<span class="words">days to go...</span>
+					<span class="date"><?php echo date("dS F Y", $countdown_date); ?></span>
 				</div>
 				<?php endif; ?>
 				<?php echo the_content(); ?> </section>
