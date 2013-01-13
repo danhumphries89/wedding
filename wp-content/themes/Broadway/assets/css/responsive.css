@@ -1,0 +1,53 @@
+@media all and (min-width: 768px) and (max-width: 1000px) {
+  p {
+    font-size: 1em; } }
+@media all and (min-width: 320px) and (max-width: 767px) {
+  body {
+    margin: 0 0; }
+
+  p {
+    font-size: 0.8em; }
+
+  .main_header {
+    margin: 0 0; }
+    .main_header .title {
+      font-size: 2.15em; }
+    .main_header .bloginfo {
+      font-size: 1em; }
+
+  .main_nav {
+    display: none; }
+
+  .main_section .main_items .page {
+    padding: 15px 0; }
+    .main_section .main_items .page .page_header h2 {
+      font-size: 1.75em; }
+    .main_section .main_items .page .page_content ul li {
+      font-size: 0.8em; }
+    .main_section .main_items .page .page_content .countdown {
+      width: 100%;
+      float: none; }
+      .main_section .main_items .page .page_content .countdown .number {
+        font-size: 3em; }
+    .main_section .main_items .page .page_content .countdown + p {
+      width: 100%;
+      padding: 20px 0;
+      float: none; }
+    .main_section .main_items .page .post-list .page_posts {
+      width: 90%;
+      height: 150px; }
+      .main_section .main_items .page .post-list .page_posts .post_content {
+        display: none; }
+      .main_section .main_items .page .post-list .page_posts .post_address {
+        width: 100%;
+        padding: 0;
+        float: none;
+        font-size: 1em; }
+
+  .main_footer {
+    display: none; }
+
+  .page-break {
+    height: 24px;
+    background-size: 24px;
+    display: none; } }

@@ -1,0 +1,58 @@
+@media all and (min-width: 1200px){
+	body{ }
+}
+
+@media all and (min-width: 768px) and (max-width: 1000px){
+	body{ }
+	p{ font-size: 1em; }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px){
+	body{ margin: 0 0; }
+	p{ font-size: 0.8em; }
+
+	.main_header{
+		margin: 0 0;
+		.title{ font-size: 2.15em; }
+		.bloginfo{ font-size: 1em; }
+	}
+	.main_nav{ display: none; }
+
+	.main_section{
+		.main_items{
+			.page{
+
+				padding: 15px 0;
+
+				.page_header{ h2{ font-size: 1.75em; } }
+
+				.page_content{
+
+					ul{
+						li{ font-size: 0.8em; }
+					}
+					.countdown{ 
+						width: 100%; 
+						float: none; 
+						.number{ font-size: 3em; }
+					}
+					.countdown + p{ width: 100%; padding: 20px 0; float: none; }
+				}
+				.post-list{
+					.page_posts{
+
+						width: 90%;
+						height: 150px;
+
+						.post_content{ display: none; }
+						.post_address{ width: 100%; padding: 0; float: none; font-size: 1em; }
+					}
+				}
+			}
+		}
+	}
+
+	.main_footer{ display: none; }
+
+	.page-break{ height: 24px; background-size: 24px; display: none; }
+}
