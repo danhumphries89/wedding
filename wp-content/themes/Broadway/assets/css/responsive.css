@@ -17,6 +17,8 @@
       margin: 0 5% 0 0; }
       .main_section .main_items .page .page_content .countdown span {
         width: 100%; }
+      .main_section .main_items .page .page_content .countdown .words {
+        padding: 0 5px 10px; }
       .main_section .main_items .page .page_content .countdown .date {
         font-size: 0.95em; }
     .main_section .main_items .page .page_content .countdown + p {
@@ -32,7 +34,7 @@
         float: none; }
 
   .main_footer {
-    display: none; }
+    height: 320px; }
 
   .page-break {
     display: none; } }

@@ -19,6 +19,7 @@
 					.countdown{ 
 						margin: 0 5% 0 0; 
 						span{ width: 100%; }
+						.words{ padding: 0 5px 10px; }
 						.date{ font-size: 0.95em; }
 					}
 					.countdown + p{ width: 75%; }
@@ -37,7 +38,7 @@
 		}
 	}
 
-	.main_footer{ display: none; }
+	.main_footer{ height: 320px; }
 	.page-break{ display: none; }
 }
 
