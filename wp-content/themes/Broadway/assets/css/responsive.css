@@ -17,6 +17,8 @@
       margin: 0 5% 0 0; }
       .main_section .main_items .page .page_content .countdown span {
         width: 100%; }
+      .main_section .main_items .page .page_content .countdown .number {
+        margin: 0 0 0 2px; }
       .main_section .main_items .page .page_content .countdown .words {
         padding: 0 5px 10px; }
       .main_section .main_items .page .page_content .countdown .date {
