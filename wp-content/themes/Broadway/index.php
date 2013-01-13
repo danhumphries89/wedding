@@ -4,25 +4,40 @@
 	<div class="main_items">
 		<?php 
 
-			$page_query = new WP_Query( array( 'post_type'=>'page' ));
+			$counter = 0;
+			$page_query = new WP_Query( array( 'post_type'=>'page', 'orderby'=>'menu_order', 'order'=>'ASC' ));
 			while( $page_query->have_posts() ) : $page_query->the_post(); 
+
+			$page_custom_fields = get_post_meta(get_the_ID());
 		?>
-		<div id="page<?php echo get_the_ID(); ?>" class="page">
+		<div id="page<?php echo $counter; ?>" class="page">
 			<header class="page_header">
 				<h2><?php the_title(); ?></h2>
 			</header>
-			<section class="page_content">
-				<?php echo the_content(); ?>
-			</section>
-			<section class="page_posts">
-				<?php
-					$page_custom_fields = get_post_meta(get_the_ID());
-					$assigned_posts = $page_custom_fields[assigned_posts][0];
 
-					if($assigned_posts != "") :
-						$post_query = new WP_Query( array( 'post_type'=>'post', 'category_name'=>$assigned_posts, 'orderby'=>'title' ));
-						while( $post_query->have_posts() ) : $post_query->the_post();
-				?>
+			<section class="page_content"> 
+				<?php if($page_custom_fields[countdown][0]) : ?>
+				<div class="countdown">
+					<?php 
+						$countdown_date = strtotime($page_custom_fields[countdown][0]); 
+						$current_date = strtotime("Now");	
+						echo $countdown_date - $current_date; 
+					?>
+				</div>
+				<?php endif; ?>
+				<?php echo the_content(); ?> </section>
+
+			<?php
+				$assigned_posts = $page_custom_fields[assigned_posts][0];
+				if($assigned_posts != "") :
+			?>
+			<ul class="post-list">
+			<?php
+					$post_query = new WP_Query( array( 'post_type'=>'post', 'category_name'=>$assigned_posts, 'orderby'=>'title' ));
+					while( $post_query->have_posts() ) : $post_query->the_post();
+			?>
+
+				<li class="page_posts">
 					<header class="post_header">
 						<?php $post_custom_fields = get_post_meta( get_the_ID() ); ?>
 						<h3><?php the_title(); ?></h3>
@@ -41,16 +56,13 @@
 						<span><?php echo trim($address_line); ?></span>
 						<?php endforeach; ?>
 					</section>
-				<?php 
-						wp_reset_query(); 
-						wp_reset_postdata(); 
-						endwhile; 
-					endif;
-				?>
-			</section>
+				</li>
+			<?php endwhile; endif; ?>
+			</ul>
 		</div>
-		<?php endwhile; ?>
+		<?php $counter++; endwhile; ?>
 	</div>
+	<span class="page-break"></span>
 </section>
-	
+
 <?php get_footer(); ?>

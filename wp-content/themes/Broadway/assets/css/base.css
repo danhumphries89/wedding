@@ -1,0 +1,157 @@
+body {
+  margin: 50px 0 0;
+  font-family: "ComfortaaThin", sans-serif;
+  background: #666; }
+
+h1, h2, h3, h4, h5 {
+  width: 100%;
+  margin: 0 0;
+  padding: 0 0;
+  font-family: "ComfortaaRegular", sans-serif;
+  color: #ffe545;
+  display: inline-block;
+  font-weight: normal; }
+  h1 a, h2 a, h3 a, h4 a, h5 a {
+    color: inherit;
+    text-decoration: none; }
+    h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+      color: #EEE; }
+
+p {
+  margin: 0;
+  padding: 0 0 20px;
+  color: #EEE;
+  line-height: 1.5em;
+  font-size: 1em; }
+
+.main_header {
+  padding: 0 10%; }
+  .main_header .title {
+    padding: 50px 0 0;
+    font-size: 3em;
+    text-align: center; }
+    .main_header .title a:hover {
+      color: #FFF; }
+  .main_header .bloginfo {
+    padding: 0 0 50px;
+    font-size: 1.5em;
+    color: #EEE;
+    text-align: center;
+    font-family: "ComfortaaThin", sans-serif; }
+
+.main_nav {
+  width: 80%;
+  height: 50px;
+  top: 0;
+  left: 0;
+  padding: 0 10%;
+  background: #ffe545;
+  border-bottom: 1px solid #555555;
+  box-shadow: 0 2px 5px #333333;
+  z-index: 9999;
+  position: fixed; }
+  .main_nav .menu-mainmenu-container .menu {
+    height: 50px;
+    margin: 0 0;
+    padding: 0 0;
+    list-style: none; }
+    .main_nav .menu-mainmenu-container .menu .menu-item a {
+      padding: 16px 24px;
+      font-size: 1em;
+      color: #666;
+      text-align: center;
+      text-decoration: none;
+      float: left;
+      display: block; }
+      .main_nav .menu-mainmenu-container .menu .menu-item a:hover {
+        background: #FEFBAF;
+        color: #333; }
+
+.main_section {
+  padding: 0 10%; }
+  .main_section .main_items .page {
+    padding: 25px 0; }
+    .main_section .main_items .page .page_header h2 {
+      font-size: 2em;
+      text-align: center;
+      margin: 0 0 10px;
+      padding: 0 0 10px;
+      border-bottom: 1px solid #ffe545; }
+    .main_section .main_items .page .page_content {
+      padding: 10px 0 20px;
+      font-size: 1.25em; }
+      .main_section .main_items .page .page_content ul li {
+        padding: 0 0 5px;
+        color: #ffe545; }
+        .main_section .main_items .page .page_content ul li span {
+          color: #EEE; }
+    .main_section .main_items .page .post-list {
+      margin: 0 0;
+      padding: 0;
+      list-style: none;
+      overflow: hidden; }
+      .main_section .main_items .page .post-list .page_posts {
+        width: 45%;
+        min-height: 160px;
+        padding: 20px;
+        margin: 0 23px 25px;
+        float: left;
+        display: block;
+        position: relative;
+        background: #555;
+        border: 1px solid #777777; }
+        .main_section .main_items .page .post-list .page_posts .post_header h3 {
+          font-size: 1.25em;
+          color: #FFF;
+          font-family: "ComfortaaThin", sans-serif; }
+        .main_section .main_items .page .post-list .page_posts .post_header .price_block {
+          margin: 0 0 10px; }
+        .main_section .main_items .page .post-list .page_posts .post_header .price {
+          font-family: "ComfortaaRegular", sans-serif;
+          font-size: 1.5em;
+          color: #ffe545; }
+          .main_section .main_items .page .post-list .page_posts .post_header .price:before {
+            content: '£'; }
+        .main_section .main_items .page .post-list .page_posts .post_header .sub_price {
+          font-size: 1em;
+          color: #ffe545; }
+        .main_section .main_items .page .post-list .page_posts .post_content {
+          width: 60%;
+          float: left; }
+          .main_section .main_items .page .post-list .page_posts .post_content p {
+            padding: 0 0 5px;
+            color: #CCC;
+            font-size: 1em;
+            line-height: 1em; }
+        .main_section .main_items .page .post-list .page_posts .post_address {
+          width: 35%;
+          padding: 0 0 0 20px;
+          float: left;
+          border-left: 1px solid #555555;
+          color: #FFF;
+          font-size: 1.25em; }
+          .main_section .main_items .page .post-list .page_posts .post_address span {
+            display: block; }
+        .main_section .main_items .page .post-list .page_posts:nth-child(1n) {
+          margin-left: 0px; }
+        .main_section .main_items .page .post-list .page_posts:nth-child(2n) {
+          margin-right: 0px; }
+
+.main_footer {
+  width: 100%;
+  height: 500px;
+  margin: 25px 0 0;
+  border-top: 1px solid #333333;
+  background: url("../images/savingme.jpg") 0 0 no-repeat;
+  background-size: 100%;
+  box-shadow: inset 0 2px 10px black;
+  display: inline-block;
+  opacity: 0.85; }
+
+.page-break {
+  width: 100%;
+  height: 24px;
+  margin: 0 0 25px;
+  display: block;
+  background: url("../images/heart.png") 50% 100% no-repeat;
+  background-size: 24px; }

@@ -1,0 +1,7 @@
+@import 'variables';
+
+@mixin headersplit{
+	margin: 0 0 10px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid $theyellow;
+}
