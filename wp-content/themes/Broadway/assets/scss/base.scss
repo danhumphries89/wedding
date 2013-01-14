@@ -13,7 +13,6 @@ h1, h2, h3, h4, h5{
 	padding: 0 0;
 	font-family: $normaltext;
 	color: $theyellow;
-	text-shadow: 0 1px 1px #333;
 	display: inline-block;
 	font-weight: normal;
 	clear: both;
@@ -26,9 +25,9 @@ h1, h2, h3, h4, h5{
 }
 p{ 
 	margin: 0; 
-	padding: 0 0 20px; 
+	padding: 0 0 25px; 
 	color: #EEE; 
-	line-height: 1.5em; 
+	line-height: 1.25em; 
 	font-size: 1em; 
 }
 
@@ -38,6 +37,7 @@ p{
 		padding: 50px 0 0;
 		font-size: 4em;
 		text-align: center;
+		text-shadow: 0 1px 1px #333;
 		a{ &:hover{ color: #FFF; } }
 	}
 	.bloginfo{
@@ -46,6 +46,7 @@ p{
 		color: #EEE; 
 		text-align: center;
 		font-family: $thintext;
+		text-shadow: 0 1px 1px #333;
 	}
 
 }
@@ -102,7 +103,6 @@ p{
 				h2{ 
 					font-size: 2em;
 					text-align: center;
-					box-shadow: 0 1px 1px #555;
 					@include headersplit;
 				}
 			}
@@ -113,6 +113,7 @@ p{
 
 				.countdown{
 					width: 20%;
+					margin: 0 0 20px;
 					text-align: center;
 					float: left;
 					display: block;
@@ -142,13 +143,14 @@ p{
 				}
 				.countdown + p{ width: 80%; float: left; }
 
-				ul{
+				ul, ol{
 					li{
 						padding: 0 0 5px;
 						color: $theyellow;
 						span{ color: #EEE; }
 					}
 				}
+				ol { li{ padding: 0 0 10px; }}
 			}
 			.post-list{
 

@@ -9,7 +9,6 @@ h1, h2, h3, h4, h5 {
   padding: 0 0;
   font-family: "ComfortaaRegular", sans-serif;
   color: #ffe545;
-  text-shadow: 0 1px 1px #333333;
   display: inline-block;
   font-weight: normal;
   clear: both; }
@@ -21,9 +20,9 @@ h1, h2, h3, h4, h5 {
 
 p {
   margin: 0;
-  padding: 0 0 20px;
+  padding: 0 0 25px;
   color: #EEE;
-  line-height: 1.5em;
+  line-height: 1.25em;
   font-size: 1em; }
 
 .main_header {
@@ -31,7 +30,8 @@ p {
   .main_header .title {
     padding: 50px 0 0;
     font-size: 4em;
-    text-align: center; }
+    text-align: center;
+    text-shadow: 0 1px 1px #333333; }
     .main_header .title a:hover {
       color: #FFF; }
   .main_header .bloginfo {
@@ -39,7 +39,8 @@ p {
     font-size: 2em;
     color: #EEE;
     text-align: center;
-    font-family: "ComfortaaThin", sans-serif; }
+    font-family: "ComfortaaThin", sans-serif;
+    text-shadow: 0 1px 1px #333333; }
 
 .main_nav {
   width: 80%;
@@ -78,7 +79,6 @@ p {
     .main_section .main_items .page .page_header h2 {
       font-size: 2em;
       text-align: center;
-      box-shadow: 0 1px 1px #555555;
       margin: 0 0 10px;
       padding: 0 0 10px;
       border-bottom: 1px solid #ffe545; }
@@ -87,6 +87,7 @@ p {
       font-size: 1.25em; }
       .main_section .main_items .page .page_content .countdown {
         width: 20%;
+        margin: 0 0 20px;
         text-align: center;
         float: left;
         display: block; }
@@ -114,11 +115,13 @@ p {
       .main_section .main_items .page .page_content .countdown + p {
         width: 80%;
         float: left; }
-      .main_section .main_items .page .page_content ul li {
+      .main_section .main_items .page .page_content ul li, .main_section .main_items .page .page_content ol li {
         padding: 0 0 5px;
         color: #ffe545; }
-        .main_section .main_items .page .page_content ul li span {
+        .main_section .main_items .page .page_content ul li span, .main_section .main_items .page .page_content ol li span {
           color: #EEE; }
+      .main_section .main_items .page .page_content ol li {
+        padding: 0 0 10px; }
     .main_section .main_items .page .post-list {
       margin: 0 0;
       padding: 0;

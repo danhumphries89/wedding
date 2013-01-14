@@ -14,7 +14,7 @@
   .main_section .main_items .page {
     padding: 15px 0; }
     .main_section .main_items .page .page_content .countdown {
-      margin: 0 5% 0 0; }
+      margin: 0 5% 20px 0; }
       .main_section .main_items .page .page_content .countdown span {
         width: 100%; }
       .main_section .main_items .page .page_content .countdown .number {
@@ -61,16 +61,25 @@
     padding: 15px 0; }
     .main_section .main_items .page .page_header h2 {
       font-size: 1.75em; }
-    .main_section .main_items .page .page_content ul li {
+    .main_section .main_items .page .page_content h4 {
+      margin: 0 0 5px; }
+    .main_section .main_items .page .page_content ul, .main_section .main_items .page .page_content ol {
+      margin: 0 0;
+      padding: 0 0 0 20px; }
+    .main_section .main_items .page .page_content ul li, .main_section .main_items .page .page_content ol li {
+      padding: 0 0 10px;
       font-size: 0.8em; }
     .main_section .main_items .page .page_content .countdown {
       width: 100%;
+      margin: 0 0;
       float: none; }
       .main_section .main_items .page .page_content .countdown span {
         width: 60%;
         margin: 0 auto;
         display: block;
         text-align: center; }
+      .main_section .main_items .page .page_content .countdown .words {
+        padding: 0 5px 10px; }
       .main_section .main_items .page .page_content .countdown .number {
         font-size: 3em; }
     .main_section .main_items .page .page_content .countdown + p {

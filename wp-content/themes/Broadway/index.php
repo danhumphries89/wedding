@@ -30,7 +30,6 @@
 				</div>
 				<?php endif; ?>
 				<?php echo the_content(); ?> </section>
-
 			<?php
 				$assigned_posts = $page_custom_fields[assigned_posts][0];
 				if($assigned_posts != "") :

@@ -10,6 +10,7 @@
 
 	<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery-1.8.3.min.js" type="text/javascript"></script>
 	<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/script.js" type="text/javascript" ></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_8SEqSNrM57GFyBHyHMUuikUh3XEkQeU&sensor=false"></script>
 </head>
 <body>
 	<header class="main_header">
