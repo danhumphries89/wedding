@@ -2,7 +2,7 @@
 @import 'mixins';
 
 body{
-	margin: 50px 0 0;
+	margin: 0 0 0;
 	font-family: $thintext;
 	background: #666;
 }
@@ -32,7 +32,8 @@ p{
 }
 
 .main_header{
-	padding: 0 10%;
+	padding: 50px 10%;
+
 	.title{
 		padding: 50px 0 0;
 		font-size: 4em;
@@ -110,6 +111,9 @@ p{
 			.page_content{ 
 				padding: 10px 0 20px; 
 				font-size: 1.25em;
+				overflow: hidden;
+
+				strong{ font-family: $normaltext; color: $theyellow; }
 
 				.countdown{
 					width: 20%;
@@ -143,6 +147,14 @@ p{
 				}
 				.countdown + p{ width: 80%; float: left; }
 
+				.align-boxes{ 
+					width: 45%; 
+					padding: 25px 0;
+					float: left;
+
+					&:last-child{ float: right; }
+				}
+
 				ul, ol{
 					li{
 						padding: 0 0 5px;
@@ -151,7 +163,63 @@ p{
 					}
 				}
 				ol { li{ padding: 0 0 10px; }}
+
+				.our-address{
+					width: 50%;
+					float: left;
+
+					p{
+						a{ 	
+							width: 340px;
+							font-size: 1.75em; 
+							line-height: 1.25em; 
+							color: #FFF; 
+							text-decoration: none; 
+							display: block; 
+							word-break: break-word;
+
+							&:hover{ text-decoration: underline; }
+						}
+						span{ font-size: 1.75em; line-height: 1.25em; display: block; }
+						br{ display: none; }
+					}
+				}
+
+				.google-map{
+					width: 48%;
+					height: 150px;
+					margin: 0 0 25px;
+					display: block;
+					background: #555;
+					border: 1px solid #777;
+					float: right;
+				}
+
+				.telephones{
+					width: 48%;
+					float: right;
+
+					h2{ 
+						padding: 0 0 0 55px; 
+						font-size: 3em; 
+
+						span{ color: #EEE; font-size: 1.5em; line-height: 3em; display: block; }
+					}
+					.home{ background: url('../images/home.png') 0 50% no-repeat; background-size: 40px; }
+					.mobile{ background: url('../images/mobile.png') 0 50% no-repeat; background-size: 40px; }
+				}
 			}
+
+			#post10{ 
+				background: #555 url('../images/barcelo.png') 0 0 no-repeat; 
+				.post_header{
+					background: url('../images/corner_start.png') 100% 0 no-repeat;
+				}
+			}
+			#post14{ background: #555 url('../images/premierinn.png') 0 0 no-repeat; }
+			#post12{ background: #555 url('../images/holidayinn.png') 0 0 no-repeat; }
+			#post16{ background: #555 url('../images/heartofengland.png') 0 0 no-repeat; }
+
 			.post-list{
 
 				margin: 0 0;
@@ -160,9 +228,9 @@ p{
 				overflow: hidden;
 
 				.page_posts{
-					width: 44%;
-					min-height: 180px;
-					padding: 20px;
+					width: 32%;
+					min-height: 185px;
+					padding: 0 0 10px 180px;
 					margin: 0 0 25px;
 					display: block;
 					position: relative;
@@ -170,6 +238,7 @@ p{
 					border: 1px solid #777;
 
 					.post_header{
+						padding: 20px 0 0 0;
 						h3{ font-size: 1.25em; color: #FFF; font-family: $thintext; }
 
 						.price_block{ margin: 0 0 10px; }
@@ -179,21 +248,20 @@ p{
 						.sub_price{ font-size: 1em; color: $theyellow; }
 					}
 					.post_content{ 
-						width: 60%;
-						float: left; 
+						width: 100%;
 
-						p{ padding: 0 0 5px; color: #CCC; font-size: 1em; line-height: 1em; }
+						p{ padding: 0 0; color: #CCC; font-size: 1em; line-height: 1em; }
 					}
 
 					.post_address{ 
-						width: 35%;
-						padding: 0 0 0 20px;
-						float: right;
+						width: 100%;
+						padding: 10px 0 0;
 						border-left: 1px solid #555;
 						color: #FFF;
-						font-size: 1.25em;
+						font-size: 1.15em;
 
 						span{ display: block; }
+						p{ padding: 0 0; }
 					}
 
 					&:nth-child(1n){ margin-left: 0px; float: left; }

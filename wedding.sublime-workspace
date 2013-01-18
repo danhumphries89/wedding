@@ -1,0 +1,1027 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text-",
+				"text-shadow"
+			],
+			[
+				"main_",
+				"main_nav"
+			],
+			[
+				"count",
+				"countdown_date"
+			],
+			[
+				"page_c",
+				"page_custom_fields"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"addre",
+				"address_line"
+			],
+			[
+				"post",
+				"post_query"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"current",
+				"currentTitle"
+			],
+			[
+				"webkit-tran",
+				"webkit-transition"
+			],
+			[
+				"menu",
+				"menu_container"
+			],
+			[
+				"content",
+				"content-overlay"
+			],
+			[
+				"scr",
+				"scrollPosition"
+			],
+			[
+				"scroll",
+				"scrollTop"
+			],
+			[
+				"slider",
+				"sliderImages"
+			],
+			[
+				"read",
+				"readdir"
+			],
+			[
+				"repea",
+				"repeat-y"
+			],
+			[
+				"backgo",
+				"background-size"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
+				"backgro",
+				"background-size"
+			],
+			[
+				"b",
+				"bg	background"
+			],
+			[
+				"cat",
+				"category_query"
+			],
+			[
+				"design",
+				"design_navigation"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"pric",
+				"price-style"
+			],
+			[
+				"home",
+				"home_class"
+			],
+			[
+				"animation",
+				"animationSpeed"
+			],
+			[
+				"the_p",
+				"the_post"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"register",
+				"register_taxonomy"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"new",
+				"news_query"
+			],
+			[
+				"al",
+				"all-headings"
+			],
+			[
+				"widget",
+				"widget-titles"
+			],
+			[
+				"webkit-tra",
+				"webkit-transition"
+			],
+			[
+				"test",
+				"testimonial_query"
+			],
+			[
+				"slide",
+				"slideshow"
+			],
+			[
+				"de",
+				"default-paragraphs"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"link",
+				"linkNameFinal"
+			],
+			[
+				"curr",
+				"currentItem"
+			],
+			[
+				"list",
+				"listElements"
+			],
+			[
+				"galle",
+				"gallery-list"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"main",
+				"mainmenu"
+			],
+			[
+				"background-",
+				"background-position"
+			],
+			[
+				"wp_get_attat",
+				"wp_get_attachment_url"
+			],
+			[
+				"popu",
+				"popular_query"
+			],
+			[
+				"que",
+				"query_posts"
+			],
+			[
+				"get_the_",
+				"get_the_ID"
+			],
+			[
+				"inpu",
+				"inputBackground"
+			],
+			[
+				"categ",
+				"categories"
+			],
+			[
+				"get_the",
+				"get_the_category"
+			],
+			[
+				"bang",
+				"bangleSizeShortcode"
+			],
+			[
+				"customer",
+				"customerDetailsShortcode"
+			],
+			[
+				"cd_te",
+				"cd_textbox"
+			],
+			[
+				"op",
+				"options_meta"
+			],
+			[
+				"option",
+				"option_explode"
+			],
+			[
+				"Turquo",
+				"Turquoise"
+			],
+			[
+				"alert",
+				"alertMessage"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"cur",
+				"currentID"
+			],
+			[
+				"ste",
+				"steps"
+			],
+			[
+				"step",
+				"stepsList"
+			],
+			[
+				"pa",
+				"pageNumber"
+			],
+			[
+				"curre",
+				"currentID"
+			],
+			[
+				"app",
+				"appendText"
+			],
+			[
+				"appen",
+				"appendChild"
+			],
+			[
+				"edu",
+				"educationPrettyFields"
+			],
+			[
+				"json",
+				"jsonItems"
+			],
+			[
+				"out",
+				"outputAreaContent"
+			],
+			[
+				"output",
+				"outputAreaContent"
+			],
+			[
+				"dele",
+				"deleteCell"
+			],
+			[
+				"append",
+				"appendChild"
+			],
+			[
+				"opu",
+				"outputItems"
+			],
+			[
+				"outpu",
+				"outputItems"
+			],
+			[
+				"pretty",
+				"prettyFields"
+			],
+			[
+				"str",
+				"stringify"
+			],
+			[
+				"table",
+				"tableTBody"
+			],
+			[
+				"get",
+				"getElementsByTagName"
+			],
+			[
+				"number",
+				"numberRows"
+			],
+			[
+				"tabe",
+				"tableID"
+			],
+			[
+				"remove",
+				"removeRowButton"
+			],
+			[
+				"add",
+				"addEvent"
+			],
+			[
+				"dete",
+				"deleteRowCell"
+			],
+			[
+				"create",
+				"createElement"
+			],
+			[
+				"creat",
+				"createElement"
+			],
+			[
+				"ne",
+				"newCellElement"
+			],
+			[
+				"num",
+				"numberRows"
+			],
+			[
+				"tex",
+				"textFields"
+			],
+			[
+				"te",
+				"textFields"
+			],
+			[
+				"d",
+				"dynamic_qualifications"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Applications/MAMP/htdocs/wedding/wp-content/themes/Broadway/header.php",
+			"settings":
+			{
+				"buffer_size": 1414,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/wedding/wp-content/themes/Broadway/index.php",
+			"settings":
+			{
+				"buffer_size": 2308,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/wedding/wp-content/themes/Broadway/footer.php",
+			"settings":
+			{
+				"buffer_size": 59,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/wedding/wp-content/themes/Broadway/functions.php",
+			"settings":
+			{
+				"buffer_size": 147,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/wedding/wp-content/themes/Broadway/assets/js/script.js",
+			"settings":
+			{
+				"buffer_size": 550,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "base.scss",
+			"settings":
+			{
+				"buffer_size": 4010,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "responsive.scss",
+			"settings":
+			{
+				"buffer_size": 1946,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mixins.scss",
+			"settings":
+			{
+				"buffer_size": 120,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "variables.scss",
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"console",
+				"Set Syntax: R Console"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/wedding/wp-content/themes/Broadway/function.php",
+		"/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/index.php",
+		"/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/function.php",
+		"/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/assets/flexslider/flexslider.css",
+		"/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/assets/css/fonts.css",
+		"/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/header.php",
+		"/Applications/MAMP/htdocs/aquafeatures/wp-content/themes/Broadway/assets/scsss/untitled",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/assets/flexslider/jquery.flexslider-min.js",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/archive-lanni_products.php",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/taxonomy-lanni_products.php",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/category-designs.php",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/category-lanni_products",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/single-lanni_products.php",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/assets/flexslider/flexslider.css",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/style.css",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/singe-lanni_products.php",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/assets/sass/variables.sass",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/assets/sass/mixins.sass",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/assets/sass/base.sass",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/assets/css/base.css",
+		"/Applications/MAMP/htdocs/lanni/wp-content/themes/Broadway/index.php",
+		"/Users/dan/Desktop/The Forge/Sway Grantham/www/wp-content/themes/twentyeleven/index.php",
+		"/Users/dan/Desktop/Broadway/assets/css/base.css",
+		"/Users/dan/Desktop/Broadway/footer.php",
+		"/Users/dan/Desktop/Broadway/index.php",
+		"/Users/dan/Desktop/Broadway/header.php",
+		"/Users/dan/Desktop/Broadway/stylesheet.css",
+		"/Users/dan/Desktop/stylesheet.css",
+		"/Users/dan/Desktop/helloworld.html",
+		"/untitled",
+		"/Users/dan/Desktop/The Forge/Sway Grantham/rewrite.txt",
+		"/Users/dan/Desktop/The Forge/Sway Grantham/www/.htaccess",
+		"/Users/dan/Desktop/The Forge/The Forge/www/new_webtest/assets/css/main.css",
+		"/Users/dan/Desktop/The Forge/The Forge/www/new_webtest/index.html",
+		"/Users/dan/Desktop/The Forge/The Forge/www/new_webtest/sftp-config.json",
+		"/Users/dan/Desktop/The Forge/Sublime/The Forge",
+		"/Users/dan/Desktop/Qlue/jobapplicationform.js",
+		"/Users/dan/Desktop/Qlue/text.html",
+		"/Users/dan/Desktop/Qlue/Worcester College (Dev)/www/administrator/components/com_mycollegedashboard/models/subjects.php",
+		"/Users/dan/Desktop/Qlue/Worcester College (Dev)/www/administrator/components/com_mycollegedashboardadmin/views/subjectusers/view.html.php",
+		"/Users/dan/Desktop/Qlue/Worcester College (Dev)/www/administrator/components/com_mycollegedashboardadmin/models/subjectusers.php",
+		"/Users/dan/Desktop/Qlue/Worcester College (Dev)/www/administrator/components/com_mycollegedashboardadmin/models/subjectlikes.php",
+		"/Users/dan/Desktop/Qlue/Worcester College (Dev)/www/sftp-config.json",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"224",
+			"255",
+			"SourceSansPro",
+			"(' ",
+			" ",
+			"SourceSansPro",
+			"pause",
+			"Silver",
+			"Orange",
+			"buttons-list",
+			"buttons",
+			"employer",
+			"higher_edu",
+			"input",
+			"126",
+			"15px",
+			"portfolio",
+			"our_work",
+			"age",
+			"(*)",
+			"button",
+			"li",
+			" >",
+			"li",
+			"clear",
+			"job_reference",
+			"<legend>",
+			"addRowTable",
+			"textFields"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Applications/MAMP/htdocs/wedding/wp-content/themes/Broadway/header.php",
+					"settings":
+					{
+						"buffer_size": 1414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1041,
+								1041
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/MAMP/htdocs/wedding/wp-content/themes/Broadway/index.php",
+					"settings":
+					{
+						"buffer_size": 2308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1100,
+								1100
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Applications/MAMP/htdocs/wedding/wp-content/themes/Broadway/footer.php",
+					"settings":
+					{
+						"buffer_size": 59,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Applications/MAMP/htdocs/wedding/wp-content/themes/Broadway/functions.php",
+					"settings":
+					{
+						"buffer_size": 147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Applications/MAMP/htdocs/wedding/wp-content/themes/Broadway/assets/js/script.js",
+					"settings":
+					{
+						"buffer_size": 550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "base.scss",
+					"settings":
+					{
+						"buffer_size": 4010,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								455,
+								455
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 219.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "responsive.scss",
+					"settings":
+					{
+						"buffer_size": 1946,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 4.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "mixins.scss",
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "variables.scss",
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.607131618924,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"in",
+				"index.php"
+			],
+			[
+				"sing",
+				"single-lanni_products.php"
+			],
+			[
+				"fle",
+				"assets/flexslider/jquery.flexslider-min.js"
+			],
+			[
+				"cate",
+				"category.php"
+			],
+			[
+				"ar",
+				"archive-lanni_products.php"
+			],
+			[
+				"foot",
+				"footer.php"
+			],
+			[
+				"single",
+				"single-lanni_products.php"
+			],
+			[
+				"fl",
+				"assets/flexslider/flexslider.css"
+			],
+			[
+				"style",
+				"style.css"
+			],
+			[
+				"flex",
+				"assets/flexslider/flexslider.css"
+			],
+			[
+				"vai",
+				"assets/sass/variables.scss"
+			],
+			[
+				"mix",
+				"assets/sass/mixins.scss"
+			],
+			[
+				"ba",
+				"assets/sass/base.scss"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"",
+				"assets/css/base.css"
+			],
+			[
+				"s",
+				"style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 162.0,
+	"status_bar_visible": true
+}

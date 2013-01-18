@@ -22,7 +22,6 @@
 		<h2 class="bloginfo">
 			<span><?php bloginfo('description'); ?></span>
 		</h2>
-		<span class="page-break"></span>
 	</header>
 
 	<nav class="main_nav">

@@ -40,7 +40,7 @@
 					while( $post_query->have_posts() ) : $post_query->the_post();
 			?>
 
-				<li class="page_posts">
+				<li class="page_posts" id="post<?php echo get_the_ID(); ?>">
 					<header class="post_header">
 						<?php $post_custom_fields = get_post_meta( get_the_ID() ); ?>
 						<h3><?php the_title(); ?></h3>
@@ -53,11 +53,7 @@
 						<?php the_content(); ?>
 					</section>
 					<section class="post_address">
-						<?php 
-							$address = explode(",", $post_custom_fields[address][0]);
-							foreach($address as $key=>$address_line) : ?>
-						<span><?php echo trim($address_line); ?></span>
-						<?php endforeach; ?>
+						<p><?php echo $post_custom_fields[address][0]; ?></p>
 					</section>
 				</li>
 			<?php endwhile; endif; ?>

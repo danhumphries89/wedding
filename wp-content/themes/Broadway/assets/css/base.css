@@ -1,5 +1,5 @@
 body {
-  margin: 50px 0 0;
+  margin: 0 0 0;
   font-family: "ComfortaaThin", sans-serif;
   background: #666; }
 
@@ -26,7 +26,7 @@ p {
   font-size: 1em; }
 
 .main_header {
-  padding: 0 10%; }
+  padding: 50px 10%; }
   .main_header .title {
     padding: 50px 0 0;
     font-size: 4em;
@@ -84,7 +84,11 @@ p {
       border-bottom: 1px solid #ffe545; }
     .main_section .main_items .page .page_content {
       padding: 10px 0 20px;
-      font-size: 1.25em; }
+      font-size: 1.25em;
+      overflow: hidden; }
+      .main_section .main_items .page .page_content strong {
+        font-family: "ComfortaaRegular", sans-serif;
+        color: #ffe545; }
       .main_section .main_items .page .page_content .countdown {
         width: 20%;
         margin: 0 0 20px;
@@ -115,6 +119,12 @@ p {
       .main_section .main_items .page .page_content .countdown + p {
         width: 80%;
         float: left; }
+      .main_section .main_items .page .page_content .align-boxes {
+        width: 45%;
+        padding: 25px 0;
+        float: left; }
+        .main_section .main_items .page .page_content .align-boxes:last-child {
+          float: right; }
       .main_section .main_items .page .page_content ul li, .main_section .main_items .page .page_content ol li {
         padding: 0 0 5px;
         color: #ffe545; }
@@ -122,52 +132,108 @@ p {
           color: #EEE; }
       .main_section .main_items .page .page_content ol li {
         padding: 0 0 10px; }
+      .main_section .main_items .page .page_content .our-address {
+        width: 50%;
+        float: left; }
+        .main_section .main_items .page .page_content .our-address p a {
+          width: 340px;
+          font-size: 1.75em;
+          line-height: 1.25em;
+          color: #FFF;
+          text-decoration: none;
+          display: block;
+          word-break: break-word; }
+          .main_section .main_items .page .page_content .our-address p a:hover {
+            text-decoration: underline; }
+        .main_section .main_items .page .page_content .our-address p span {
+          font-size: 1.75em;
+          line-height: 1.25em;
+          display: block; }
+        .main_section .main_items .page .page_content .our-address p br {
+          display: none; }
+      .main_section .main_items .page .page_content .google-map {
+        width: 48%;
+        height: 150px;
+        margin: 0 0 25px;
+        display: block;
+        background: #555;
+        border: 1px solid #777777;
+        float: right; }
+      .main_section .main_items .page .page_content .telephones {
+        width: 48%;
+        float: right; }
+        .main_section .main_items .page .page_content .telephones h2 {
+          padding: 0 0 0 55px;
+          font-size: 3em; }
+          .main_section .main_items .page .page_content .telephones h2 span {
+            color: #EEE;
+            font-size: 1.5em;
+            line-height: 3em;
+            display: block; }
+        .main_section .main_items .page .page_content .telephones .home {
+          background: url("../images/home.png") 0 50% no-repeat;
+          background-size: 40px; }
+        .main_section .main_items .page .page_content .telephones .mobile {
+          background: url("../images/mobile.png") 0 50% no-repeat;
+          background-size: 40px; }
+    .main_section .main_items .page #post10 {
+      background: #555555 url("../images/barcelo.png") 0 0 no-repeat; }
+      .main_section .main_items .page #post10 .post_header {
+        background: url("../images/corner_start.png") 100% 0 no-repeat; }
+    .main_section .main_items .page #post14 {
+      background: #555555 url("../images/premierinn.png") 0 0 no-repeat; }
+    .main_section .main_items .page #post12 {
+      background: #555555 url("../images/holidayinn.png") 0 0 no-repeat; }
+    .main_section .main_items .page #post16 {
+      background: #555555 url("../images/heartofengland.png") 0 0 no-repeat; }
     .main_section .main_items .page .post-list {
       margin: 0 0;
       padding: 0;
       list-style: none;
       overflow: hidden; }
       .main_section .main_items .page .post-list .page_posts {
-        width: 44%;
-        min-height: 180px;
-        padding: 20px;
+        width: 32%;
+        min-height: 185px;
+        padding: 0 0 10px 180px;
         margin: 0 0 25px;
         display: block;
         position: relative;
         background: #555;
         border: 1px solid #777777; }
-        .main_section .main_items .page .post-list .page_posts .post_header h3 {
-          font-size: 1.25em;
-          color: #FFF;
-          font-family: "ComfortaaThin", sans-serif; }
-        .main_section .main_items .page .post-list .page_posts .post_header .price_block {
-          margin: 0 0 10px; }
-        .main_section .main_items .page .post-list .page_posts .post_header .price {
-          font-family: "ComfortaaRegular", sans-serif;
-          font-size: 1.5em;
-          color: #ffe545; }
-          .main_section .main_items .page .post-list .page_posts .post_header .price:before {
-            content: '£'; }
-        .main_section .main_items .page .post-list .page_posts .post_header .sub_price {
-          font-size: 1em;
-          color: #ffe545; }
+        .main_section .main_items .page .post-list .page_posts .post_header {
+          padding: 20px 0 0 0; }
+          .main_section .main_items .page .post-list .page_posts .post_header h3 {
+            font-size: 1.25em;
+            color: #FFF;
+            font-family: "ComfortaaThin", sans-serif; }
+          .main_section .main_items .page .post-list .page_posts .post_header .price_block {
+            margin: 0 0 10px; }
+          .main_section .main_items .page .post-list .page_posts .post_header .price {
+            font-family: "ComfortaaRegular", sans-serif;
+            font-size: 1.5em;
+            color: #ffe545; }
+            .main_section .main_items .page .post-list .page_posts .post_header .price:before {
+              content: '£'; }
+          .main_section .main_items .page .post-list .page_posts .post_header .sub_price {
+            font-size: 1em;
+            color: #ffe545; }
         .main_section .main_items .page .post-list .page_posts .post_content {
-          width: 60%;
-          float: left; }
+          width: 100%; }
           .main_section .main_items .page .post-list .page_posts .post_content p {
-            padding: 0 0 5px;
+            padding: 0 0;
             color: #CCC;
             font-size: 1em;
             line-height: 1em; }
         .main_section .main_items .page .post-list .page_posts .post_address {
-          width: 35%;
-          padding: 0 0 0 20px;
-          float: right;
+          width: 100%;
+          padding: 10px 0 0;
           border-left: 1px solid #555555;
           color: #FFF;
-          font-size: 1.25em; }
+          font-size: 1.15em; }
           .main_section .main_items .page .post-list .page_posts .post_address span {
             display: block; }
+          .main_section .main_items .page .post-list .page_posts .post_address p {
+            padding: 0 0; }
         .main_section .main_items .page .post-list .page_posts:nth-child(1n) {
           margin-left: 0px;
           float: left; }
