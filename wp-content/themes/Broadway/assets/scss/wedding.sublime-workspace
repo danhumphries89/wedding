@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"word",
+				"word-break"
+			],
+			[
 				"text-",
 				"text-shadow"
 			],
@@ -387,7 +391,7 @@
 			"file": "/Applications/MAMP/htdocs/wedding/wp-content/themes/Broadway/index.php",
 			"settings":
 			{
-				"buffer_size": 2308,
+				"buffer_size": 2193,
 				"line_ending": "Unix"
 			}
 		},
@@ -419,7 +423,7 @@
 			"file": "base.scss",
 			"settings":
 			{
-				"buffer_size": 4010,
+				"buffer_size": 5390,
 				"line_ending": "Unix"
 			}
 		},
@@ -611,8 +615,8 @@
 						"selection":
 						[
 							[
-								1041,
-								1041
+								827,
+								827
 							]
 						],
 						"settings":
@@ -634,15 +638,15 @@
 					"file": "/Applications/MAMP/htdocs/wedding/wp-content/themes/Broadway/index.php",
 					"settings":
 					{
-						"buffer_size": 2308,
+						"buffer_size": 2193,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1100,
-								1100
+								2044,
+								2044
 							]
 						],
 						"settings":
@@ -654,7 +658,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 278.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -700,8 +704,8 @@
 						"selection":
 						[
 							[
-								57,
-								57
+								0,
+								147
 							]
 						],
 						"settings":
@@ -729,8 +733,8 @@
 						"selection":
 						[
 							[
-								27,
-								27
+								232,
+								0
 							]
 						],
 						"settings":
@@ -750,7 +754,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -758,15 +762,15 @@
 					"file": "base.scss",
 					"settings":
 					{
-						"buffer_size": 4010,
+						"buffer_size": 5390,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								455,
-								455
+								3129,
+								3129
 							]
 						],
 						"settings":
@@ -777,8 +781,8 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 219.0,
+						"translation.x": 6.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -795,8 +799,8 @@
 						"selection":
 						[
 							[
-								245,
-								245
+								99,
+								41
 							]
 						],
 						"settings":
@@ -807,7 +811,7 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 4.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},

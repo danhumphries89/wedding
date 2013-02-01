@@ -36,7 +36,7 @@
 			?>
 			<ul class="post-list">
 			<?php
-					$post_query = new WP_Query( array( 'post_type'=>'post', 'category_name'=>$assigned_posts, 'orderby'=>'title' ));
+					$post_query = new WP_Query( array( 'post_type'=>'post', 'category_name'=>$assigned_posts, 'orderby'=>'title', 'order'=>'ASC' ));
 					while( $post_query->have_posts() ) : $post_query->the_post();
 			?>
 
